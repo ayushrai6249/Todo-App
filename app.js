@@ -21,7 +21,7 @@ btn.addEventListener("click", function () {
 });
 
 inp.addEventListener("keydown", function (Event) {
-    if (Event.code == "Enter" || Event.code == "NumpadEnter" || Event.keyCode === 13) {
+    if (Event.code == "Enter" || Event.code == "NumpadEnter" || Event.key === "Enter") {
         let item = document.createElement('li');
         item.innerText = inp.value;
 
