@@ -168,7 +168,7 @@ li {
     .sentence {
         position: absolute;
         left: 25%;
-        top: 95%;
+        bottom: 1%;
         font-size: 20px;
         text-shadow: 2px 2px 8px blue;
     }
