@@ -47,7 +47,6 @@ ul.addEventListener("click", function (Event) {
     }
 })
 
-let p = document.querySelector('.sentence');
 
 // This is used to make webpage static when keaboard popup in mobiles
 
@@ -57,7 +56,6 @@ window.addEventListener('resize', () => {
     if (window.innerHeight < originalHeight) {
         // Keyboard is open
         document.body.style.height = originalHeight + 'px';
-        p.remove();
     } else {
         // Keyboard is closed
         document.body.style.height = '100vh';

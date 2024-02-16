@@ -166,10 +166,6 @@ li {
     }
 
     .sentence {
-        position: absolute;
-        left: 25%;
-        bottom: 1%;
-        font-size: 20px;
-        text-shadow: 2px 2px 8px blue;
+       display: none;
     }
 }
